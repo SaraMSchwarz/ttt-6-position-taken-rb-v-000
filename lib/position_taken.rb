@@ -1,5 +1,5 @@
 def position_taken?(board, index)
-end
+  taken = nil
 if board(index) == "   " || " "
   then false
 else board(index) == " X " || " O "
